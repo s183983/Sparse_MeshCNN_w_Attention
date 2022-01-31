@@ -1,0 +1,4 @@
+runfile('C:/Users/lowes/OneDrive/Skrivebord/DTU/6_Semester/Bachelor/MeshCNN_sparse/train.py',
+ wdir='C:/Users/lowes/OneDrive/Skrivebord/DTU/6_Semester/Bachelor/MeshCNN_sparse', 
+args='--dataroot datasets/LAA_segmentation --name LAA_segmentation --arch meshunet --dataset_mode segmentation --ncf 32 64 128 256 --ninput_edges 67032 --pool_res 24000 12000 3000 --resblocks 3 --batch_size 12 --lr 0.001 --niter 200 --niter_decay 200 --export_folder meshes')
+
